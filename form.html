@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        input {
+            display: block;
+            width: 400px;
+            border: 1px solid black;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<!--    -->
+
+<body>
+    <form action="http://domanart.pl/send-script.php" method="POST">
+        <!--mini zabezpieczenie action wskazuje gdzie ma wysłać na adres serwera Marcina-->
+        <div>
+            <label for="name">Wpisz imię</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="email">Wpisz email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <button type="submit">wyślij</button>
+        </div>
+    </form>
+</body>
+
+</html>
